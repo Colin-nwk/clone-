@@ -1,0 +1,45 @@
+/* Navigation */
+
+.main-nav{
+	display: flex;
+	align-items: center;
+	// justify-content: space-between;
+	height: 2rem;
+	padding: 1.2rem 0;
+	font-size: .9rem;
+	margin: .5rem 0;
+
+	ul{
+		display: flex;
+
+		li{
+			padding: 0 1rem;
+
+			a{
+				padding-bottom: 2px;
+			
+			&:hover{
+				// @include ease-out;
+				border-bottom: 1px solid $primary-color;
+
+			}
+		}
+		}
+		.main-menu{
+			margin-left:2rem;
+			flex: 1;
+		}
+	}
+
+	.right-menu{
+		// justify-self: flex-end;
+		margin-left: auto;
+	}
+
+	.logo{
+		height: 40px;
+		width: 40px;
+	}
+	
+}
+
